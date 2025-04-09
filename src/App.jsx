@@ -5,6 +5,7 @@ import Form from './components/Form'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Read from './components/Read'
 import Service from './components/Service'
+import Login from './components/Login'
 
 const App = () => {
   return (
@@ -12,6 +13,8 @@ const App = () => {
       <Routes>
         <Route element={<Layout />}>
           <Route path='/' element={<Form />} />
+          {/* <Route path='/' element={<Login />} /> */}
+
           <Route path='/read' element={<Read />} />
           <Route path='/service' element={<Service />} />
 

@@ -16,12 +16,7 @@ const Form = () => {
 
     }
 
-
-
-
-
     const handleSubmit = (e) => {
-        console.log("🚀 ~ handleSubmit ~ handleSubmit:", users)
         e.preventDefault();
         setUsers({})
         formRef.current.reset()

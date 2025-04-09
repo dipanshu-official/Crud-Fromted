@@ -7,4 +7,5 @@ import  userDetail  from '../features/userDetailSlice'
     app: userDetail ,
   },
 })
+ console.log("🚀 ~ store:", store)
 
